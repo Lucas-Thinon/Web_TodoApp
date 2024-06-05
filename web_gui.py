@@ -29,7 +29,7 @@ def delete_todo():
 
 
 st.title("My todo app")
-st.subheader("This is Lucas Todo App")
+st.subheader("This is Lucas and Laurine Todo App")
 
 button_add = st.button("Add", on_click=add_todo)
 st.columns([1,1])
