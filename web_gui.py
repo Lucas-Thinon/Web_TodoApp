@@ -2,7 +2,7 @@ import streamlit as st
 import functions
 import os
 
-
+st.set_page_config(layout="wide")
 if not os.path.exists("todo_list.txt"):
     with open("todo_list.txt", "w") as file:
         pass
@@ -19,10 +19,6 @@ def add_todo():
 
 def delete_todo():
     index_list =[]
-
-
-if True:
-    pass
 
     for index, todo in enumerate(todo_list):
         index_list.append(index)
