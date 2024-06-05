@@ -20,6 +20,10 @@ def add_todo():
 def delete_todo():
     index_list =[]
 
+
+if True:
+    pass
+
     for index, todo in enumerate(todo_list):
         index_list.append(index)
     for index in reversed(index_list):
@@ -29,7 +33,7 @@ def delete_todo():
 
 
 st.title("My todo app")
-st.subheader("This is Lucas Todo App")
+st.subheader("This is Lucas and Laurine Todo App")
 
 button_add = st.button("Add", on_click=add_todo)
 st.columns([1,1])
